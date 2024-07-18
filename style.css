@@ -1,0 +1,78 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1614850523011-8f49ffc73908?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 15px;
+    transition: opacity 2s ease;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    margin-top: 20px;
+}
+
+.input-container label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input-container input {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-container button {
+    background-color: yellow;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.loading-container {
+    display: none;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.loading-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.loading-bar-inner {
+    height: 20px;
+    width: 0;
+    background-color: green;
+    border-radius: 15px;
+}
